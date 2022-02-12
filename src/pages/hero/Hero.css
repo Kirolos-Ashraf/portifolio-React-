@@ -1,0 +1,34 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.header {
+     width: 100%;
+     height: 53.2rem;
+     background-image: url('./images/hero.jpg');
+     background-size: cover;
+     display: flex;
+     align-items: center;
+
+}
+
+.content button:hover { 
+     background-color: transparent;
+}
+
+.content h1  { 
+     font-size: 5rem;
+
+}
+
+.content p { 
+     font-size: 3rem;
+
+}
+
+.content button{
+     border-width: 2px; 
+
+}
